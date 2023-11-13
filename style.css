@@ -1,0 +1,205 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/*Nav Bar*/
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    background-color: rgba(22, 22, 23, .8);
+    position: fixed;
+    border-bottom: 1px solid grey;
+}
+
+nav img {
+    height: 3rem;
+    width: auto;
+    padding-left: 1rem;
+}
+
+nav li {
+    display: inline-flex;
+    color: whitesmoke;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/*Header*/
+.banner {
+    background-image: url("./IMG/cover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1212px;
+    margin: 0;
+    min-height: 480px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.banner .content {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'Cormorant Garamond', serif;
+  margin-left: 6rem;
+}
+
+.banner h1 {
+  font-size: 5rem;
+}
+
+/*Products*/
+
+.wrapper {
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-left: 150px;
+}
+
+.wrapper .title {
+    max-width: 100%;
+    order: -1;
+    flex: 1 0 100%;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.product {
+    display: block;
+    padding-bottom: 2.5rem;
+}
+
+.product img {
+    width: 300px;
+    height: 300px;
+    margin-right: 150px;
+}
+
+#smaller {
+    width: 290px;
+    height: 290px;
+}
+
+.product h3 {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 90px;
+    text-transform: uppercase;
+}
+
+/*Team*/
+
+.Team {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+    flex-wrap: wrap;
+    background-color: rgba(22, 22, 23, .8);
+}
+
+.Team .title {
+    max-width: 1000px;
+    margin: 0 auto;
+    order: -1;
+    flex: 1 0 100%;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+ }
+
+.Team .leader {
+    display: block;
+}
+
+.leader img {
+    width: 300px;
+    height: 250px;
+    padding-right: 1.25rem;
+}
+
+.leader h3 {
+   color: whitesmoke;
+   font-size: 1,5rem;
+   font-weight: bold;
+}
+
+.leader h4 {
+    color: whitesmoke;
+    font-weight: normal;
+    line-height: 0.6;
+ }
+
+ #wider {
+    width: 320px;
+ }
+
+ /*Footer*/
+
+footer {
+    background-color: #d2d2d7;
+    border-top: 1px solid black;
+    height: 6.5rem;
+    width: 100%;
+}
+
+ .footer-links {
+    text-align: center;
+ }
+
+ .footer-links ul li {
+    display: inline-block;
+    padding: 10px;
+ }
+
+ .footer-links ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+ }
+
+ .footer-links a:not(#last-child):after {
+    content: 'I';
+    padding: 5px;
+ }
+
+ 
+ footer .copyright {
+    width: 100%;
+    text-align: left;
+    font-size: 0.8rem;
+ }
+
+
+
+ /*Anotaciones:
+
+1- para Mobile:
+@media only screen and (max-width: 450px) {
+    Quiero que el "Apple - Think different" se vea bien centrado.
+}
+
+
+2- el titulo "PRODUCTS" no esta centrado y no se bien por que.
+*/
