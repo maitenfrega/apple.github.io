@@ -35,7 +35,7 @@ nav li a {
 
 /*Header*/
 .banner {
-    background-image: url("./IMG/cover.jpg");
+    background-image: url("./cover.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
